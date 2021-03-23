@@ -15,10 +15,6 @@
 	2. Caso você ganhe algum jogo e pressione o caractere **N**, você será direcionado para o menu principal, porém isso é ilusório. Assim que você digitar algum caractere, ele vai voltar ao game. Para voltar ao menu de fato, você precisará interromper o jogo e executa-lo novamente.
  	3. A opção **R** não funciona.
 
-
-
-
-
 Para que as músicas sejam reproduzidas, é necessário que baixe o **mpg123**. Este é um reprodutor de música extremamente leve. Para baixa-lo, basta digitar no terminal:
 
 ​			```sudo apt install mpg123 -y```
