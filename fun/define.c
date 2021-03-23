@@ -4,6 +4,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <stdbool.h>
 
 //        :::ATRIBUTOS:::
 #define BOLD         "\x1B[1m"

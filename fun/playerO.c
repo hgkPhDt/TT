@@ -10,6 +10,7 @@ if(	x == 1 && matriz[0][0] == 'X'||
 	x == 7 && matriz[2][0] == 'X'||
 	x == 8 && matriz[2][1] == 'X'||
 	x == 9 && matriz[2][2] == 'X'||
+	//...........................//
 	x == 1 && matriz[0][0] == 'O'||
 	x == 2 && matriz[0][1] == 'O'||
 	x == 3 && matriz[0][2] == 'O'||
@@ -50,8 +51,11 @@ if(	x == 1 && matriz[0][0] == 'X'||
 		case 8:
 			matriz[2][1] = 'O';
 			break;
-
-		default:
+		case 9:
 			matriz[2][2] = 'O';
+
+		case 0:
+			
+			break;
 	}
 }

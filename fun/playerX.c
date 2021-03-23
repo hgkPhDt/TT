@@ -1,4 +1,5 @@
-void playerX(short unsigned int x, unsigned char matriz[3][3]){
+
+void playerX(short unsigned int x, unsigned char matriz[3][3], unsigned char op){
 
 //Verifica se ja tem alguma casa ocupada
 if(	x == 1 && matriz[0][0] == 'O'||
@@ -10,6 +11,7 @@ if(	x == 1 && matriz[0][0] == 'O'||
 	x == 7 && matriz[2][0] == 'O'||
 	x == 8 && matriz[2][1] == 'O'||
 	x == 9 && matriz[2][2] == 'O'||
+	//...........................//
 	x == 1 && matriz[0][0] == 'X'||
 	x == 2 && matriz[0][1] == 'X'||
 	x == 3 && matriz[0][2] == 'X'||
@@ -50,9 +52,11 @@ if(	x == 1 && matriz[0][0] == 'O'||
 		case 8:
 			matriz[2][1] = 'X';
 			break;
-
 		case 9:
 			matriz[2][2] = 'X';
+			break;
+		case 0:
+
 			break;
 	}
 }
