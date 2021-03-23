@@ -8,7 +8,7 @@
 
 ​	1. Caso você sair digitando o caractere **E**, a música vai continuar mesmo com o programa encerrado, para isso é necessário que digite no terminal: 
 
-```kill 31228 ``` 
+​			`kill 31228`  
 
 ​	Ou se não, procurar pelo nome **mpg123** e finalizar o programa pelo **Monitor do sistema**.
 
@@ -21,7 +21,7 @@
 
 Para que as músicas sejam reproduzidas, é necessário que baixe o **mpg123**. Este é um reprodutor de música extremamente leve. Para baixa-lo, basta digitar no terminal:
 
-​			```sudo apt install mpg123 -y```
+​			`sudo apt install mpg123 -y`
 
 Os efeitos sonoros e músicas, são melhor aproveitados usando fone de ouvido. 
 
