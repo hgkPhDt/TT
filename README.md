@@ -4,6 +4,21 @@
 
 ​	Este jogo está em sua primeira versão, espero que em um futuro não muito distante, eu possa criar novas funcionalidades e aprimorar as já existentes.
 
+	##### O game está com alguns bugs.
+
+​	1. Caso você sair digitando o caractere **E**, a música vai continuar mesmo com o programa encerrado, para isso é necessário que digite no terminal: 
+
+```kill 31228 ``` 
+
+​	Ou se não, procurar pelo nome **mpg123** e finalizar o programa pelo **Monitor do sistema**.
+
+	2. Caso você ganhe algum jogo e pressione o caractere **N**, você será direcionado para o menu principal, porém isso é ilusório. Assim que você digitar algum caractere, ele vai voltar ao game. Para voltar ao menu de fato, você precisará interromper o jogo e executa-lo novamente.
+ 	3. A opção **R** não funciona.
+
+
+
+
+
 Para que as músicas sejam reproduzidas, é necessário que baixe o **mpg123**. Este é um reprodutor de música extremamente leve. Para baixa-lo, basta digitar no terminal:
 
 ​			```sudo apt install mpg123 -y```
