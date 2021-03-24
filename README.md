@@ -46,22 +46,27 @@ Para que as músicas/efeitos sejam reproduzidas, é necessário que baixe o **mp
 
 Os efeitos sonoros e músicas, são melhor aproveitados usando fone de ouvido. 
 
-As músicas e efeitos sonoros, não são de minha autoria, tudo foi obtido através do site freesound. O link do site é este:  https://freesound.org/people/Snapper4298/sounds/564405/
+As músicas e efeitos sonoros, não são de minha autoria, tudo foi obtido através do site freesound. O link do site é este:  https://freesound.org/
 
-
+O nome dos áudios sao os mesmos que correspondem o que está no site.  Existem apenas algumas encurtações no nome do arquivo, mas se pesquisar pelo nome do arquivo, irá encontrar o author e o áudio em si.
 
 
 
 #### V1.0
 
- 	Foi adicionado músicas e efeitos sonoros.
-	 Verificador de vencedor.
-	 Função **goto** para o player sair do game a qualquer hora e voltar ao menu.
-	 Encerramento da música após sair pelo menu.
-	 Cores para deixar algumas coisas destacadas.
+ Foi adicionado músicas e efeitos sonoros.
+ Verificador de vencedor.
+ Função **goto** para o player sair do game a qualquer hora e voltar ao menu.
+ Encerramento da música após sair pelo menu.
+ Cores para deixar algumas coisas destacadas.
 
 
 
 #### V1.5 
 
->  Toda versão com o **.5** no final, são versões preparativas para a próxima, arredondandoas para .0. 
+>  Toda versão com o **.5** no final, são versões preparativas para a próxima, arredondandoas para .0.
+
+​	 Está sendo desenvolvida uma Inteligilência artificial e podera ser jogada pelo menu **i**. Cujo qual correspode ao **Start Game I.A.**
+​	O menu **S** será modificado para o nome **Start Game Duo OFF**. Sendo que poderá ser jogado por duas pessoas em um computador apenas. Ou caso prefira treinar jogadas, poderá jogar solo mesmo.
+​	Além destas citadas, alguns erros serão corrigidos e atualizações do código para algo mais profissional conforme eu for adquirindo mais conhecimento da linguagem e da programação.
+​	Provavelmente, quando o game estiver mais maduro, pretendo criar uma interface gráfica para ele. Porém, ainda não tenho certeza se usuários Windows poderão usufruir do game. 
