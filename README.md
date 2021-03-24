@@ -1,32 +1,67 @@
+# Em Desenvolvimento!
+
 ### Tralha Terminal
 
 ​	Este é o meu primeiro jogo criado, e o fruto do meu esforço para com a programação. Sei que diante de muitos, isso não significa nada, mas para mim é uma grande conquista e não apenas isso, pretendo aprimorar o projeto para algo além do que somente um mero joguinho de terminal. Porém, ainda não tenho conhecimentos necessários para tal. Quando o tiver, terá sua merecida atualização.
 
-​	Este jogo está em sua primeira versão, espero que em um futuro não muito distante, eu possa criar novas funcionalidades e aprimorar as já existentes.
+​	Este jogo está em sua primeira versão, espero que em um futuro não muito distante, eu possa criar novas funcionalidades e aprimorar as já existentes. Caso houver novas atualizações, será postada neste arquivo com os seus devidos comentários.
 
-##### O game está com alguns bugs.
+### Como jogar:
 
-​	1. Caso você sair digitando o caractere **E**, a música vai continuar mesmo com o programa encerrado, para isso é necessário que digite no terminal: 
+Imagine o seguinte tabuleiro:
 
-​			`kill 31228`  
+`	~			~			~`	
 
-​	Ou se não, procurar pelo nome **mpg123** e finalizar o programa pelo **Monitor do sistema**.
+`~		 	~			~`	
 
-2. Caso você ganhe algum jogo e pressione o caractere **N**, você será direcionado para o menu principal, porém isso é ilusório. Assim que você digitar algum caractere, ele vai voltar ao game. Para voltar ao menu de fato, você precisará interromper o jogo e executa-lo novamente.
+`~			~			~ `
+
+Seria algo como:
+
+`1			2			3`
+
+`4 			5			6`
+
+`7			8			9`
+
+Então caso queiro assinalar a primeira casa do tabuleiro (1), basta digitar o número 1 e assim de forma sucessiva conforme o jogo for solicitando.
+
+Ainda não sei se mudo a ordem, colocando o 1 no lugar do 7 e de forma linear chegando no 9, atual 1. Assim ficaria mais interessante para quem joga com o teclado numérico, mas nem todos tomam uso do mesmo.
+
+#### O game está com algumas funções inativas.
+
 3. A opção **R** não funciona.
+2. O modo online não funciona.
+3. Ainda não tem um I.A. para o jogo offline.
 
 #### Créditos
 
 ​	O espaço de dedicatória aos créditos, está dentro do caractere **K**. Digite **K** e logo após será mostrado.
 
-Para que as músicas sejam reproduzidas, é necessário que baixe o **mpg123**. Este é um reprodutor de música extremamente leve. Para baixa-lo, basta digitar no terminal:
+#### Músicas e efeitos
+
+Para que as músicas/efeitos sejam reproduzidas, é necessário que baixe o **mpg123**. Este é um reprodutor de música extremamente leve. Para baixa-lo, basta digitar no terminal:
 
 ​			`sudo apt install mpg123 -y`
 
 Os efeitos sonoros e músicas, são melhor aproveitados usando fone de ouvido. 
 
-Música usada:
+As músicas e efeitos sonoros, não são de minha autoria, tudo foi obtido através do site freesound. O link do site é este:  https://freesound.org/people/Snapper4298/sounds/564405/
 
-https://freesound.org/people/Snapper4298/sounds/564405/
 
-(Havia mais músicas e efeitos, porém ainda não é a hora de implementar tudo)
+
+
+
+#### V1.0
+
+ 	Foi adicionado músicas e efeitos sonoros.
+	 Verificador de vencedor.
+	 Função **goto** para o player sair do game a qualquer hora e voltar ao menu.
+	 Encerramento da música após sair pelo menu.
+	 Cores para deixar algumas coisas destacadas.
+
+
+
+#### V1.5 
+
+>  Toda versão com o **.5** no final, são versões preparativas para a próxima, arredondandoas para .0. 
